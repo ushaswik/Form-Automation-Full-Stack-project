@@ -1,0 +1,167 @@
+{
+  "name": "John Doe",
+  "gender": "Male",
+  "date_of_birth": "1990-05-15",
+  "father_name": "Robert Doe",
+  "nationality": "Indian",
+  "pan_card": "ABCDE1234F",
+  "aadhar_card": "123456789012",
+  "din": "12345678",
+  "passport_no": "A1234567",
+  "passport_issue_date": "2020-01-01",
+  "passport_expiry_date": "2030-01-01",
+  "email": "john.doe@example.com",
+  "religion": "Hindu",
+  "phone": "9876543210",
+  "current_address": {
+    "full_address": "123 Main Street, Downtown, Bangalore, Karnataka 560001",
+    "state": "Karnataka",
+    "postal_code": "560001",
+    "duration_of_stay": {
+      "start": "2020-01-01",
+      "end": "present",
+      "raw": "Jan 2020 - Present"
+    }
+  },
+  "permanent_address": {
+    "full_address": "456 Permanent Lane, Hometown, Chennai, Tamil Nadu 600001",
+    "state": "Tamil Nadu",
+    "postal_code": "600001",
+    "duration_of_stay": {
+      "start": "1990-05-15",
+      "end": "present",
+      "raw": "May 1990 - Present"
+    }
+  },
+  "previous_address": [
+    {
+      "full_address": "789 Old Street, Previous City, Mumbai, Maharashtra 400001",
+      "state": "Maharashtra",
+      "postal_code": "400001",
+      "duration_of_stay": {
+        "start": "2018-01-01",
+        "end": "2020-01-01",
+        "raw": "Jan 2018 - Jan 2020"
+      }
+    },
+    {
+      "full_address": "321 Former Road, Old Town, New Delhi, Delhi 110001",
+      "state": "Delhi",
+      "postal_code": "110001",
+      "duration_of_stay": {
+        "start": "2016-06-01",
+        "end": "2018-01-01",
+        "raw": "Jun 2016 - Jan 2018"
+      }
+    }
+  ],
+  "current_employment": {
+    "employer_name_and_branch": "Tech Corp Bangalore",
+    "employer_address": "123 Tech Park, Electronic City, Bangalore, Karnataka 560100",
+    "position_and_department": "Software Engineer, Engineering",
+    "landline": "080-12345678",
+    "employment_period": {
+      "start": "2020-01-01",
+      "end": "present",
+      "raw": "Jan 2020 - Present"
+    },
+    "employee_code": "EMP001",
+    "last_salary": "80000",
+    "reason_for_leaving": "",
+    "reporting_manager": "Jane Smith, Engineering Department, Phone: 080-98765432, Email: jane.smith@techcorp.com",
+    "agency_details": "",
+    "contract_agency": false,
+    "can_verify": true
+  },
+  "employment_history": [
+    {
+      "employer_name_and_branch": "Previous Company 1, Tech Park",
+      "employer_address": "456 Business District, HITEC City, Hyderabad, Telangana 500081",
+      "position_and_department": "Senior Developer, Engineering",
+      "landline": "080-98765432",
+      "employment_period": {
+        "start": "2018-01-01",
+        "end": "2020-01-01",
+        "raw": "Jan 2018 - Jan 2020"
+      },
+      "employee_code": "EMP002",
+      "last_salary": "60000",
+      "reason_for_leaving": "Better opportunity",
+      "reporting_manager": "Sarah Johnson, Engineering Department, Phone: 080-87654321, Email: sarah.johnson@prevcompany.com",
+      "agency_details": "",
+      "contract_agency": false,
+      "can_verify": true
+    }
+  ],
+  "highest_qualification": {
+    "university_and_college": "Indian Institute of Technology",
+    "location_full_address": "Mumbai, Maharashtra",
+    "degree_or_course": "Bachelor of Technology",
+    "period": {
+      "start": "2008-07-01",
+      "end": "2012-06-30"
+    },
+    "roll_or_registration": "08IT001"
+  },
+  "previous_qualification": {
+    "university_and_college": "Delhi University",
+    "location_full_address": "Delhi, India",
+    "degree_or_course": "Master of Science",
+    "period": {
+      "start": "2012-07-01",
+      "end": "2014-06-30"
+    },
+    "roll_or_registration": "12MS001"
+  },
+  "references": [
+    {
+      "name": "Dr. Smith",
+      "phone": "9876543210",
+      "designation_and_company": "Professor, IIT Mumbai"
+    },
+    {
+      "name": "Sarah Johnson",
+      "phone": "9876543211",
+      "designation_and_company": "Senior Manager, Previous Company 1"
+    }
+  ],
+  "gaps": {
+    "reason": "Travel and personal development",
+    "period": {
+      "start": "2019-06-01",
+      "end": "2019-12-31",
+      "raw": "Jun 2019 - Dec 2019"
+    },
+    "address_during_gap": "Traveling across India"
+  },
+  "epf_and_gratuity": {
+    "pf_account_no": "PF123456789",
+    "marital_status": "Single",
+    "religion": "Hindu",
+    "department": "Engineering",
+    "post_held": "Software Engineer",
+    "date_of_appointment": "2020-01-01",
+    "nominee": {
+      "name": "Mary Doe",
+      "relationship": "Sister",
+      "date_of_birth": "1985-03-15",
+      "address": "456 Permanent Lane, Hometown",
+      "share": "100%"
+    },
+    "family_member_1": {
+      "name": "Robert Doe",
+      "relationship": "Father",
+      "age": "65"
+    },
+    "witnesses": [
+      {
+        "name": "Tom Wilson",
+        "address": "789 Witness Street"
+      }
+    ],
+    "form_sign_date": "2024-01-01",
+    "form_sign_place": "Bangalore",
+    "employer_name": "Tech Corp",
+    "employer_address": "Tech Park, Bangalore"
+  }
+}
