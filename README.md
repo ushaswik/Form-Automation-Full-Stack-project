@@ -6,7 +6,7 @@ An automated form filling system that generates DOCX documents from JSON data, d
 
 This system automatically fills various HR and administrative forms with user data, generating professional DOCX documents ready for submission. The application supports both web interface and command-line automation.
 
-## ✨ Features
+##  Features
 
 - **Automated Form Filling**: Fills 9 different HR forms automatically
 - **Web Interface**: User-friendly React frontend for manual data entry
@@ -29,7 +29,7 @@ The system currently supports the following forms:
 8. **Declaration Form**
 9. **Letterhead Template**
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -126,7 +126,7 @@ curl -X POST http://localhost:5000/api/process-forms \
   -d @test_data.json
 ```
 
-## 🧪 Testing
+##  Testing
 
 Run the automated test suite:
 
@@ -231,21 +231,21 @@ sleep 5
 | "Forms not generating" | Check backend health with `curl http://localhost:5000/api/health` |
 | "PDF files appearing" | Run `find output -name "*.pdf" -delete` |
 
-## 📊 Performance
+##  Performance
 
 - **Processing Time**: ~5-10 seconds for 9 forms
 - **File Size**: ~50-150KB per DOCX file
 - **Memory Usage**: ~100MB during processing
 - **Concurrent Users**: Tested with 1-5 simultaneous users
 
-## 🔒 Security Notes
+##  Security Notes
 
 - No authentication implemented (suitable for internal use)
 - Files are generated locally and not stored permanently
 - No sensitive data is logged or transmitted externally
 - All processing happens on the local machine
 
-## 🛠️ Development
+## Development
 
 ### Adding New Features
 
@@ -282,7 +282,7 @@ sleep 5
 }
 ```
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] User authentication system
 - [ ] Database integration for form data storage
@@ -292,7 +292,7 @@ sleep 5
 - [ ] Docker containerization
 - [ ] CI/CD pipeline setup
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -300,18 +300,18 @@ sleep 5
 4. Test thoroughly with `./QUICK_TEST.sh`
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Support
+##  Support
 
 For issues and questions:
 1. Check the troubleshooting section above
 2. Run `./QUICK_TEST.sh` to diagnose problems
 3. Review the logs in `backend.log` and `frontend.log`
 
-## 📋 System Requirements
+##  System Requirements
 
 - **Operating System**: macOS 10.14+, Ubuntu 18.04+, Windows 10+
 - **Python**: 3.8 or higher
@@ -323,4 +323,4 @@ For issues and questions:
 
 **Last Updated**: October 14, 2025  
 **Version**: 1.0.0  
-**Status**: ✅ Production Ready
+**Status**: Production Ready
