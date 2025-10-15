@@ -15,7 +15,7 @@ This system automatically fills various HR and administrative forms with user da
 - **Test Data Support**: Built-in test data for quick demonstrations
 - **Cross-Platform**: Works on macOS, Linux, and Windows
 
-## 📋 Supported Forms
+##  Supported Forms
 
 The system currently supports the following forms:
 
