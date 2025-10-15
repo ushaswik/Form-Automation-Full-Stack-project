@@ -2,7 +2,7 @@
 
 An automated form filling system that generates DOCX documents from JSON data, designed for HR and administrative processes.
 
-## 🎯 Overview
+## Overview
 
 This system automatically fills various HR and administrative forms with user data, generating professional DOCX documents ready for submission. The application supports both web interface and command-line automation.
 
